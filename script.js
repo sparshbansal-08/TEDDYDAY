@@ -10,7 +10,7 @@ const noBtnRect = noBtn.getBoundingClientRect();
 
 yesBtn.addEventListener("click", () => {
   question.innerHTML =
-    "Shatakshi, What teddy will you accept, you are a teddy yourself :)";
+    "Hey, What teddy will you accept, you are a teddy yourself :)";
   mainImg.style.display = "none";
   heartImg.style.display = "block";
 });
